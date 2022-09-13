@@ -6,4 +6,4 @@ FROM nginx
 #  volumes:
 #    - ./nginx.conf:/etc/nginx/nginx.conf:ro
 EXPOSE 8090
-command: [nginx-debug, '-g', 'daemon off;']
+#command: [nginx-debug, '-g', 'daemon off;']
