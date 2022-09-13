@@ -1,2 +1,1 @@
-FROM ngnix
-EXPOSE 8090
+docker run -d -p 80:80 --name ngnix ngnix:latest
