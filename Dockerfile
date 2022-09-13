@@ -1,0 +1,2 @@
+FROM ngnix
+EXPOSE 8090
