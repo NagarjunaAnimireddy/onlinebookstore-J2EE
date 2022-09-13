@@ -1,6 +1,6 @@
 # docker run -d -p 80:80 --name ngnix ngnix:latest
 # docker pull nginx
-docker login
+sudo docker login
 FROM nginx
 #web:
 #  image: nginx
