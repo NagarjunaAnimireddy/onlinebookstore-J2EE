@@ -24,18 +24,6 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
-		<repository>
-			<id>devops-lib-release-lib</id>
-			<name>devops-lib-release-local</name>
-			<url>http://localhost:8082/artifactory/devops-lib-release-local/</url>
-		</repository>
-		<snapshotRepository>
-			<id>devops-lib-snapshot-local</id>
-			<name>devops-lib-snapshot-local</name>
-			<url>http://localhost:8082/artifactory/devops-lib-snapshot-local/</url>
-		</snapshotRepository>
-  <distributionManagement>	
   <dependencies>
   	
   	<dependency>
@@ -57,4 +45,16 @@
   		<version>3.1.0</version>
   	</dependency>
   </dependencies>
+ <distributionManagement>
+		<repository>
+			<id>devops-lib-release-lib</id>
+			<name>devops-lib-release-local</name>
+			<url>http://localhost:8082/artifactory/devops-lib-release-local/</url>
+		</repository>
+		<snapshotRepository>
+			<id>devops-lib-snapshot-local</id>
+			<name>devops-lib-snapshot-local</name>
+			<url>http://localhost:8082/artifactory/devops-lib-snapshot-local/</url>
+		</snapshotRepository>
+  <distributionManagement>	
 </project>
